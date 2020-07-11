@@ -1,0 +1,7 @@
+$num: 7;
+
+@for $i from 4 through $num {
+    .test#{$i} {
+        font-size: 20 * $i + px;
+    }
+}
